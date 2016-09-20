@@ -1,0 +1,75 @@
+/* line 1, ../sass/style.scss */
+.container {
+  margin: auto;
+  width: 260px;
+  height: 400px;
+}
+/* line 5, ../sass/style.scss */
+.container h1 {
+  text-align: center;
+}
+/* line 8, ../sass/style.scss */
+.container .game-container {
+  border: 2px solid black;
+  height: 224px;
+  width: inherit;
+  position: relative;
+  overflow: hidden;
+}
+/* line 14, ../sass/style.scss */
+.container .game-container .map {
+  height: inherit;
+  width: 2000px;
+  background-image: url("../img/background.png");
+  position: relative;
+}
+/* line 20, ../sass/style.scss */
+.container .game-container .mario {
+  content: url("../img/marioR.gif");
+  position: absolute;
+  top: 168px;
+  left: 80px;
+}
+/* line 26, ../sass/style.scss */
+.container .game-container .marioMoveR {
+  content: url("../img/runR.gif");
+  position: absolute;
+  top: 168px;
+  left: 80px;
+}
+/* line 32, ../sass/style.scss */
+.container .game-container .marioMoveL {
+  content: url("../img/runL.gif");
+  position: absolute;
+  top: 168px;
+  left: 80px;
+}
+/* line 38, ../sass/style.scss */
+.container .game-container .marioJump {
+  content: url("../img/jMarioR.gif");
+  position: absolute;
+  top: 168px;
+  left: 80px;
+}
+/* line 44, ../sass/style.scss */
+.container .game-container .money-score {
+  content: url("../img/money_score.gif");
+  position: absolute;
+  top: 8px;
+  left: 22px;
+}
+/* line 50, ../sass/style.scss */
+.container .game-container .score {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+/* line 57, ../sass/style.scss */
+.container .game-container .money1 {
+  content: url("../img/money.gif");
+  position: absolute;
+  top: 168px;
+  left: 150px;
+}

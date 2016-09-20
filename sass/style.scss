@@ -1,0 +1,64 @@
+.container{
+	margin: auto;
+	width: 260px;
+	height: 400px;
+	h1{
+		text-align: center;
+	}
+	.game-container{
+		border: 2px solid black;
+		height: 224px;
+		width: inherit;
+		position: relative;
+		overflow: hidden;
+		.map{
+			height: inherit;
+			width: 2000px;
+			background-image: url("../img/background.png");
+			position: relative;
+		}
+		.mario{
+			content: url("../img/marioR.gif");
+			position: absolute;
+			top: 168px;
+			left: 80px;
+		}
+		.marioMoveR{
+			content: url("../img/runR.gif"); 
+			position: absolute;
+			top: 168px;
+			left: 80px;
+		}
+		.marioMoveL{
+			content: url("../img/runL.gif"); 
+			position: absolute;
+			top: 168px;
+			left: 80px;
+		}
+		.marioJump{
+			content: url("../img/jMarioR.gif");
+			position: absolute;
+			top: 168px;
+			left: 80px;
+		}
+		.money-score{
+			content: url("../img/money_score.gif");
+			position: absolute;
+			top: 8px;
+			left: 22px;
+		}
+		.score{
+			position: absolute;
+			top: 0px;
+			left: 5px;
+			font-size: 40px;
+			color: #FFFFFF;
+		}
+		.money1{
+			content: url("../img/money.gif");
+			position: absolute;
+			top: 168px;
+			left: 150px;
+		}
+	}
+}
